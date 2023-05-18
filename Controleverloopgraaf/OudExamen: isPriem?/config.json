@@ -1,0 +1,15 @@
+{
+  "image": "dodona/dodona-html",
+  "natural_language": "nl",
+  "judge": ".",
+  "workdir": "workdir/",
+  "memory_limit": 536870912,
+  "time_limit": 60,
+  "programming_language": "CVG",
+  "description": {
+    "names": {
+      "nl": "Oud examen: Is priem?",
+      "en": "Previous exam: Is prime?"
+    }
+  }
+}

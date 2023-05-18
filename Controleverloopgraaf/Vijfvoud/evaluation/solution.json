@@ -1,0 +1,35 @@
+{
+  "nodes": ["0,1", "2,3", "4,5,6,7,8", "9,10", "11"],
+  "edges": [
+    {
+      "dashes": true,
+      "from": "0,1",
+      "to": "2,3"
+    },
+    {
+      "dashes": false,
+      "from": "0,1",
+      "to": "4,5,6,7,8"
+    },
+    {
+      "dashes": false,
+      "from": "2,3",
+      "to": "11"
+    },
+    {
+      "dashes": false,
+      "from": "4,5,6,7,8",
+      "to": "11"
+    },
+    {
+      "dashes": false,
+      "from": "9,10",
+      "to": "0,1"
+    },
+    {
+      "dashes": true,
+      "from": "9,10",
+      "to": "11"
+    }
+  ]
+}

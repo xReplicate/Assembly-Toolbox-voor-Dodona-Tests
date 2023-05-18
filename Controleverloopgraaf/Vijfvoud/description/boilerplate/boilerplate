@@ -1,0 +1,13 @@
+vijfvoud:   cmp eax,0
+            jg positief
+            xor eax, eax
+            ret
+positief:
+            push rdx
+            mov rdx,5
+            imul rdx
+            pop rdx
+            ret
+main:       mov eax, 6
+            call vijfvoud
+            mov g, eax
