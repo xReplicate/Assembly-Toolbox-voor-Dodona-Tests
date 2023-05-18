@@ -1,0 +1,37 @@
+{
+  "description": {
+    "names": {
+      "en": "Narayana-x86-64-intel",
+      "nl": "Narayana-x86-64-intel"
+    }
+  },
+  "evaluation": {
+    "plan_name": "plan.json",
+    "options": {
+      "language": {
+        "assembly": {
+          "flavour": "x86",
+          "syntax": "intel",
+          "bit": "64"
+        }
+      }
+    }
+  },
+  "programming_language": "assembly",
+  "access": "private",
+  "natural_language": "en",
+  "resources": "Assemblyx86&ARM/narayana-x86-64-intel/",
+  "source": "Assemblyx86&ARM/narayana-x86-64-intel/solution/correctx86-64-intel.s",
+  "judge": ".",
+  "workdir": "workdir/",
+  "memory_limit": 536870912,
+  "time_limit": 60,
+  "plan_name": "evaluation/plan.json",
+  "internals": {
+    "token": "W_3YhwnqS6VfnkAK-sD-8Jthkp5asPa4-cjJAsdq_ES2eHH2PfIvYmtADdrDWp2g",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": [
+
+  ]
+}

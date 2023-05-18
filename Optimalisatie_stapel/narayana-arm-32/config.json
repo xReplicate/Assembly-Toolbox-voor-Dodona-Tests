@@ -1,0 +1,41 @@
+{
+  "description": {
+    "names": {
+      "en": "Narayana-arm-32-Stapel",
+      "nl": "Narayana-arm-32-Stapel"
+    }
+  },
+  "evaluation": {
+    "plan_name": "plan.json",
+    "options": {
+      "language": {
+        "assembly": {
+          "flavour": "arm",
+          "bit": "32",
+          "type": {
+            "name": "stack",
+            "expected_message": "Geen stack overhead.",
+            "generated_message": "% bytes stack overhead."
+          }
+        }
+      }
+    }
+  },
+  "programming_language": "assembly",
+  "access": "private",
+  "natural_language": "en",
+  "resources": "Optimalisatie_stapel/narayana-arm-32/",
+  "source": "Optimalisatie_stapel/narayana-arm-32/solution/correctARM-32.s",
+  "judge": ".",
+  "workdir": "workdir/",
+  "memory_limit": 536870912,
+  "time_limit": 60,
+  "plan_name": "evaluation/plan.json",
+  "internals": {
+    "token": "zQbRU6IPE9Z8pZSA9iC2xfZvu7RjBeuhkGh59fA-UzagAj9Mm3M-Pj_Gt54QbrPM",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": [
+
+  ]
+}

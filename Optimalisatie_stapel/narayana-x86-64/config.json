@@ -1,0 +1,42 @@
+{
+  "description": {
+    "names": {
+      "en": "Narayana-x86-64-AT&T-Stapel",
+      "nl": "Narayana-x86-64-AT&T-Stapel"
+    }
+  },
+  "evaluation": {
+    "plan_name": "plan.json",
+    "options": {
+      "language": {
+        "assembly": {
+          "flavour": "x86",
+          "syntax": "at&t",
+          "bit": "64",
+          "type": {
+            "name": "stack",
+            "expected_message": "Geen stack overhead.",
+            "generated_message": "% bytes stack overhead."
+          }
+        }
+      }
+    }
+  },
+  "programming_language": "assembly",
+  "access": "private",
+  "natural_language": "en",
+  "resources": "Optimalisatie_stapel/narayana-x86-64/",
+  "source": "Optimalisatie_stapel/narayana-x86-64/solution/correctx86-64.s",
+  "judge": ".",
+  "workdir": "workdir/",
+  "memory_limit": 536870912,
+  "time_limit": 60,
+  "plan_name": "evaluation/plan.json",
+  "internals": {
+    "token": "kj3qBS-WZxtpSdCq3TMCG7PCDfue8mPUJ6aUQTPuKf9GcMGE_vV4a9QEjB9QcrwY",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": [
+
+  ]
+}

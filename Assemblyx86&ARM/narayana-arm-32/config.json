@@ -1,0 +1,36 @@
+{
+  "description": {
+    "names": {
+      "en": "Narayana-arm-32",
+      "nl": "Narayana-arm-32"
+    }
+  },
+  "evaluation": {
+    "plan_name": "plan.json",
+    "options": {
+      "language": {
+        "assembly": {
+          "flavour": "arm",
+          "bit": "32"
+        }
+      }
+    }
+  },
+  "programming_language": "assembly",
+  "access": "private",
+  "natural_language": "en",
+  "resources": "Assemblyx86&ARM/narayana-arm-32/",
+  "source": "Assemblyx86&ARM/narayana-arm-32/solution/correctARM-32.s",
+  "judge": ".",
+  "workdir": "workdir/",
+  "memory_limit": 536870912,
+  "time_limit": 60,
+  "plan_name": "evaluation/plan.json",
+  "internals": {
+    "token": "zQbRU6IPE9Z8pZSA9iC2xfZvu7RjBeuhkGh59fA-UzagAj9Mm3M-Pj_Gt54QbrPM",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": [
+
+  ]
+}

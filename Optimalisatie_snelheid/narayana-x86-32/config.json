@@ -1,0 +1,42 @@
+{
+  "description": {
+    "names": {
+      "en": "Narayana-x86-32-AT&T-Cycles",
+      "nl": "Narayana-x86-32-AT&T-Cycles"
+    }
+  },
+  "evaluation": {
+    "plan_name": "plan.json",
+    "options": {
+      "language": {
+        "assembly": {
+          "flavour": "x86",
+          "syntax": "at&t",
+          "bit": "32",
+          "type": {
+            "name": "cycles",
+            "expected_message": "Uitgevoerd in maximaal % cycli.",
+            "generated_message": "Uitgevoerd in % cycli."
+          }
+        }
+      }
+    }
+  },
+  "programming_language": "assembly",
+  "access": "private",
+  "natural_language": "en",
+  "resources": "Optimalisatie_snelheid/narayana-x86-32/",
+  "source": "Optimalisatie_snelheid/narayana-x86-32/solution/correctx86-32.s",
+  "judge": ".",
+  "workdir": "workdir/",
+  "memory_limit": 536870912,
+  "time_limit": 60,
+  "plan_name": "evaluation/plan.json",
+  "internals": {
+    "token": "UB_7_C_XtR7ZEZdz7TA8KND_G2MJmNybSYF6nzhTbQaAW2JwGxXMVKsCjqu_b4mj",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": [
+
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "description": {
+    "names": {
+      "en": "Narayana-arm-64-Cycles",
+      "nl": "Narayana-arm-64-Cycles"
+    }
+  },
+  "evaluation": {
+    "plan_name": "plan.json",
+    "options": {
+      "language": {
+        "assembly": {
+          "flavour": "arm",
+          "bit": "64",
+          "type": {
+            "name": "cycles",
+            "expected_message": "Uitgevoerd in maximaal % cycli.",
+            "generated_message": "Uitgevoerd in % cycli."
+          }
+        }
+      }
+    }
+  },
+  "programming_language": "assembly",
+  "access": "private",
+  "natural_language": "en",
+  "resources": "Optimalisatie_snelheid/narayana-arm-64/",
+  "source": "Optimalisatie_snelheid/narayana-arm-64/solution/correctARM-64.s",
+  "judge": ".",
+  "workdir": "workdir/",
+  "memory_limit": 536870912,
+  "time_limit": 60,
+  "plan_name": "evaluation/plan.json",
+  "internals": {
+    "token": "YK-8NUyIICjzXhDFscAj3_xRkisUTDd-BvSaECheXFAAuzTVDR_aDt3pQznszpdb",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": [
+
+  ]
+}
