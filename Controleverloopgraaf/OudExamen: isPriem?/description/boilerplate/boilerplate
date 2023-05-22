@@ -1,5 +1,4 @@
-_ispriem:
-        subq $8, %rsp
+_ispriem:subq $8, %rsp
         cmpl $1, %edi
         jle .L2
         movl %esi, %edx
@@ -17,15 +16,13 @@ _ispriem:
         movzbl %al, %eax
 .L4:    addq $8, %rsp
         ret
-ispriem:
-        subq $8, %rsp
+ispriem:subq $8, %rsp
         movl %edi, %esi
         sarl $1, %edi
         call _ispriem
         addq $8, %rsp
         ret
-main:
-        subq $8, %rsp
+main:subq $8, %rsp
         movl $11, %edi
         call ispriem
         movl %eax, g
