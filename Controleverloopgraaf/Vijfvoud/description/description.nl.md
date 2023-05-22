@@ -19,3 +19,20 @@ main:       mov eax, 6
             call vijfvoud
             mov g, eax
 ```
+
+Deze assemblycode is afkomstig van het volgende programma:
+
+```
+int vijfvoud(int n){
+    if (n > 0)
+        return n * 5;
+    else
+        return 0;
+}
+
+int g;
+
+main(){
+    g = vijfvoud(6);
+}
+```

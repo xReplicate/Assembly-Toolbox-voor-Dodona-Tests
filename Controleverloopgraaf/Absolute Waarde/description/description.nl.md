@@ -13,3 +13,18 @@ main: mov eax, 2
       call abs
       mov r, eax
 ```
+
+Deze assemblycode is afkomstig van het volgende programma:
+
+```
+int abs(int n) {
+      if (n < 0)
+            return -n;
+      else
+            return n;
+      }
+int main() {
+      int r;
+      r = abs(2);
+}
+```
